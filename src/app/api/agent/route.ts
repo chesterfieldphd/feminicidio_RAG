@@ -3,7 +3,7 @@ import type { NextRequest } from 'next/server';
 
 export async function GET(request: NextRequest) {
   // recrea la URL de tu API remota usando los mismos parámetros
-  const url = `https://mujer-402850500236.us-west4.run.app/agent?` +
+  const url = `https://feminicidio-402850500236.us-west4.run.app/agent?` +
     new URL(request.url).searchParams.toString();
 
   // forward
