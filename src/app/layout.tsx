@@ -4,7 +4,7 @@ import type { ReactNode } from 'react';
 import AuthProvider from './AuthProvider';
 
 export const metadata = {
-  title: 'MiTiendaGPT',
+  title: 'Aurora Chester Assistant',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
